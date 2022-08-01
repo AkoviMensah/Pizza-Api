@@ -35,6 +35,72 @@ namespace API.Data
                     Type = "Veggie",
                     QuantityInStock = 100
                 },
+                new Pizza
+                {
+                    Name = "Pizza 8",
+                    Description =
+                        "the vegie pizza has 5 topping mia",
+                    Price = 18000,
+                    PictureUrl = "https://images.unsplash.com/photo-1618213957768-7789409b9dd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+                    Crust = "original",
+                    Type = "Veggie",
+                    QuantityInStock = 100
+                },
+                new Pizza
+                {
+                    Name = "Pizza great",
+                    Description =
+                        "the vegie pizza has 5 topping mia",
+                    Price = 18000,
+                    PictureUrl = "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+                    Crust = "original",
+                    Type = "Veggie",
+                    QuantityInStock = 100
+                },
+                new Pizza
+                {
+                    Name = "Pizza 579",
+                    Description =
+                        "the vegie pizza has 5 topping mia",
+                    Price = 18000,
+                    PictureUrl = "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+                    Crust = "original",
+                    Type = "Veggie",
+                    QuantityInStock = 100
+                },
+                new Pizza
+                {
+                    Name = "Pizza 5 best",
+                    Description =
+                        "the vegie pizza has 5 topping mia",
+                    Price = 18000,
+                    PictureUrl = "https://images.unsplash.com/photo-1566843972142-a7fcb70de55a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+                    Crust = "original",
+                    Type = "Veggie",
+                    QuantityInStock = 100
+                },
+                new Pizza
+                {
+                    Name = "Pizza reminder",
+                    Description =
+                        "the vegie pizza has 5 topping mia",
+                    Price = 18000,
+                    PictureUrl = "https://images.unsplash.com/photo-1585238342024-78d387f4a707?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+                    Crust = "original",
+                    Type = "Veggie",
+                    QuantityInStock = 100
+                },
+                new Pizza
+                {
+                    Name = "Pizza 556",
+                    Description =
+                        "the vegie pizza has 5 topping mia",
+                    Price = 18000,
+                    PictureUrl = "https://images.unsplash.com/photo-1573821663912-569905455b1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+                    Crust = "original",
+                    Type = "Veggie",
+                    QuantityInStock = 100
+                },
             };
 
             foreach (var Pizza in Pizzas)
