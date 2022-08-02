@@ -37,7 +37,7 @@ namespace API.Controllers
 
             var pizza = await _context.Pizzas.FindAsync(pizzaId);
 
-            if (pizza == null) return NotFound();
+            if (pizza == null) return BadRequest(new ProblemDetails{Title = "Pizza not found"});
             
             basket.AddItem(pizza, quantity);
             
