@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Data.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20220820152700_order")]
-    partial class order
+    [Migration("20220917202211_orders")]
+    partial class orders
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -166,14 +166,14 @@ namespace API.Data.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "65924cd5-17c2-43e4-9fe9-698341f69057",
+                            ConcurrencyStamp = "5c835740-89ca-4272-a6f0-0f53ba368f30",
                             Name = "Member",
                             NormalizedName = "MEMBER"
                         },
                         new
                         {
                             Id = 2,
-                            ConcurrencyStamp = "649e17f3-62a1-44b3-a379-2245c46de4ae",
+                            ConcurrencyStamp = "dcac26ed-0ce9-4fd4-845f-c6600a537788",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });

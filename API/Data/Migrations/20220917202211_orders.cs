@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace API.Data.Migrations
 {
-    public partial class order : Migration
+    public partial class orders : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -288,12 +288,12 @@ namespace API.Data.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { 1, "65924cd5-17c2-43e4-9fe9-698341f69057", "Member", "MEMBER" });
+                values: new object[] { 1, "5c835740-89ca-4272-a6f0-0f53ba368f30", "Member", "MEMBER" });
 
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { 2, "649e17f3-62a1-44b3-a379-2245c46de4ae", "Admin", "ADMIN" });
+                values: new object[] { 2, "dcac26ed-0ce9-4fd4-845f-c6600a537788", "Admin", "ADMIN" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
